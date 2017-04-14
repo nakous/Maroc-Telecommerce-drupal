@@ -1,0 +1,624 @@
+# $Id: uc_paybox.fr.po,v 1.1.2.2 2010/03/17 12:53:24 mogtofu33 Exp $
+#
+# French translation of Drupal (general)
+# Copyright 2010 Mog <tech@arthura.fr>
+# Generated from files:
+#  uc_paybox.pages.inc,v 1.1.2.2 2009/12/01 15:44:37 mogtofu33
+#  uc_paybox.module,v 1.1.2.2 2009/12/01 15:44:37 mogtofu33
+#  uc_paybox.info,v 1.1.2.2 2009/12/01 15:44:37 mogtofu33
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-03-17 13:43+0100\n"
+"PO-Revision-Date: 2010-03-17 13:43+0100\n"
+"Last-Translator: Mog <tech@arthura.fr>\n"
+"Language-Team: French <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: uc_paybox.pages.inc:16;89
+msgid "You are not allowed to see this page, please, return to homepage."
+msgstr ""
+"Vous n'êtes pas autorisé à voir cette page, merci de retourner à "
+"la page d'accueil."
+
+#: uc_paybox.pages.inc:73;115;123;163
+msgid "An error has occured during payment, please contact us."
+msgstr "Une erreure est survenue durant le paiement, merci de nous contacter."
+
+#: uc_paybox.pages.inc:104
+msgid "Customer get back on successful payment, waiting auto notification to validate payment."
+msgstr ""
+"Le client est revenu après un paiement validé, en attente validation "
+"auto pour validation du paiement."
+
+#: uc_paybox.pages.inc:115
+msgid "Error: @error"
+msgstr "Erreure : @error"
+
+#: uc_paybox.pages.inc:117
+msgid "Error occured during payment: @error"
+msgstr "Une erreure est survenue durant le paiement: @error"
+
+#: uc_paybox.pages.inc:133
+msgid "Your purchase has been refused. Please try again or contact us."
+msgstr ""
+"Votre paiement à été refusé. Merci de réessayer ou de nous "
+"contacter."
+
+#: uc_paybox.pages.inc:148
+msgid "This order has been explicitly canceled by the user."
+msgstr "Cette commande à été explicitement annulé par le client."
+
+#: uc_paybox.pages.inc:151
+msgid "Your order has been canceled."
+msgstr "Votre commande à été annulé."
+
+#: uc_paybox.pages.inc:182
+msgid "Invalid IP @ip."
+msgstr "Mauvaise IP @ip."
+
+#: uc_paybox.pages.inc:186
+msgid "Invalid sign."
+msgstr "Mauvaise signature."
+
+#: uc_paybox.pages.inc:192
+msgid "Invalid order @id."
+msgstr "Mauvaise commande @id"
+
+#: uc_paybox.pages.inc:197
+msgid "Order not in checkout or pending: "
+msgstr "Commande ni en cours ni en attente : "
+
+#: uc_paybox.pages.inc:200
+msgid "Try to revalide a payment."
+msgstr "Tentative de re-valider un paiement."
+
+#: uc_paybox.pages.inc:205
+msgid "Incorrect price: @price1 / @price2."
+msgstr "Mauvais montant : @price1 / @price2."
+
+#: uc_paybox.pages.inc:215
+msgid "Autoresponse error on order @id: @error"
+msgstr "Erreur de réponse automatique sur commande @id : @error"
+
+#: uc_paybox.pages.inc:219;216
+msgid "Order @id caused error: @error"
+msgstr "Commande @id a causé des erreurs : @error"
+
+#: uc_paybox.pages.inc:228
+msgid "Paid by paybox reference @uniqueid."
+msgstr "Payé par paybox avec la reférence @uniqueid."
+
+#: uc_paybox.pages.inc:230
+msgid "Order created through website. Paybox payment transaction : @uniqueid"
+msgstr "Commande créé sur le site. Numéro de transaction Paybox : @uniqueid"
+
+#: uc_paybox.pages.inc:231
+msgid "Payment accepted. Paybox transaction id: @uniqueid"
+msgstr "Paiement validé. Numéro de transaction Paybox : @uniqueid"
+
+#: uc_paybox.pages.inc:245
+msgid "Connexion to autorise center failed."
+msgstr "La connexion au centre d'autorisation a echoué."
+
+#: uc_paybox.pages.inc:248
+msgid "Payment refused by autorisation center."
+msgstr "Paiement refusé par le centre d'autorisation."
+
+#: uc_paybox.pages.inc:251
+msgid "Paybox error."
+msgstr "Erreur Paybox."
+
+#: uc_paybox.pages.inc:254
+msgid "Owner number or cryptogram invalid."
+msgstr "Numéro de porteur ou cryptogramme visuel invalide."
+
+#: uc_paybox.pages.inc:257
+msgid "Access refused or rank/site/is incorrect."
+msgstr "Accès refusé ou site/rang/identifiant incorrect."
+
+#: uc_paybox.pages.inc:260
+msgid "Error on expiry date"
+msgstr "Date de fin de validité incorrecte."
+
+#: uc_paybox.pages.inc:263
+msgid "Error creating subscription."
+msgstr "Erreur de création d'un abonnement."
+
+#: uc_paybox.pages.inc:266
+msgid "Unknow currency."
+msgstr "Devise inconnue."
+
+#: uc_paybox.pages.inc:269
+msgid "Wrong order total."
+msgstr "Montant incorrect."
+
+#: uc_paybox.pages.inc:272
+msgid "Payment already validate."
+msgstr "Paiement déjà effectué."
+
+#: uc_paybox.pages.inc:275
+msgid "User exist."
+msgstr "Abonné déjà existant."
+
+#: uc_paybox.pages.inc:278
+msgid "Unauthorize card."
+msgstr "Carte non autorisée."
+
+#: uc_paybox.pages.inc:281
+msgid "Card non-compliant."
+msgstr "Carte non conforme."
+
+#: uc_paybox.pages.inc:284
+msgid "Timeout on checkout page (> 15 mn)."
+msgstr ""
+"Temps d'attente > 15 mn par l'internaute/acheteur au niveau de la page "
+"de paiements."
+
+#: uc_paybox.pages.inc:287
+msgid "Reserved."
+msgstr "Réservé"
+
+#: uc_paybox.pages.inc:290
+msgid "Unknown error"
+msgstr "Erreure inconnu"
+
+#: uc_paybox.pages.inc:292
+msgid "ERROR @error: "
+msgstr "ERREUR @error: "
+
+#: uc_paybox.pages.inc:74;105;118;124;155;160;216
+msgid "uc_paybox"
+msgstr ""
+
+#: uc_paybox.pages.inc:74
+msgid "CGI error: order @orderid, path: @path"
+msgstr "Erreur CGI : commande @orderid, chemin bin : @path"
+
+#: uc_paybox.pages.inc:105
+msgid "Payment back on order !orderid, waiting auto notification."
+msgstr ""
+"Retour paiement sur commande !orderid, en attente notification "
+"automatique."
+
+#: uc_paybox.pages.inc:118
+msgid "Error on complete : @error"
+msgstr "Erreur de calidation : @error"
+
+#: uc_paybox.pages.inc:124
+msgid "Sign error: order @orderid"
+msgstr "Erreure signature : commande @orderid"
+
+#: uc_paybox.pages.inc:155
+msgid "Order @order couldn't be marked as 'Canceled'."
+msgstr "Commande @order ne peut pas $etre marqué 'Canceled'."
+
+#: uc_paybox.pages.inc:160
+msgid "Order cancel error: order @orderid"
+msgstr "Erreure annulation de commande : commande @orderid"
+
+#: uc_paybox.module:85
+msgid "Back"
+msgstr "Retour"
+
+#: uc_paybox.module:89;278
+msgid "Submit Order"
+msgstr "Valider la commande"
+
+#: uc_paybox.module:96
+msgid "Paybox only accepts the following currencies: @list"
+msgstr "Paybox accepte uniquement les devises suivantes: @list"
+
+#: uc_paybox.module:123;128;260
+msgid "Credit card on a secured server."
+msgstr "Carte de crédit sur un serveur sécurisé."
+
+#: uc_paybox.module:127
+msgid "Credit Card with Paybox"
+msgstr "Carte de crédit avec Paybox"
+
+#: uc_paybox.module:129
+msgid "Credit card with Paybox"
+msgstr "Carte de crédit avec Paybox"
+
+#: uc_paybox.module:130;176;265
+msgid "Redirect to Paybox to pay by credit card."
+msgstr "Redirection vers Paybox pour régler par carte de crédit."
+
+#: uc_paybox.module:150
+msgid "paybox Configuration"
+msgstr "Configuration Paybox"
+
+#: uc_paybox.module:151
+msgid "Paybox is working in <strong>demo mode</strong> because no site, rank and/or identifier is set."
+msgstr ""
+"Paybox fonctionne en <strong>mode demo</strong> car les informations "
+"d'identifications sont vides."
+
+#: uc_paybox.module:159
+msgid "Paybox configuration"
+msgstr "Configuration Paybox"
+
+#: uc_paybox.module:160
+msgid "The Paybox module need cgi. Please refer to paybox documentation."
+msgstr ""
+"Le module paybox requiert le script cgi. Merci de vous reférer à la "
+"documentation paybox."
+
+#: uc_paybox.module:186
+msgid "Card Type"
+msgstr "Type de carte"
+
+#: uc_paybox.module:198
+msgid "Payment Type field is required."
+msgstr "Le champ type de paiement est obligatoire."
+
+#: uc_paybox.module:209
+msgid "Your CGI file seems not readable, please see INSTALL.txt"
+msgstr ""
+"Votre fichier CGI ne semble pas accessible, merci de vous reférer à "
+"INSTALL.txt"
+
+#: uc_paybox.module:212
+msgid "Your pubkey file is not readable, please see INSTALL.txt"
+msgstr ""
+"Votre fichier pubkey n'est pas accessible, merci de vous reférer à "
+"INSTALL.txt"
+
+#: uc_paybox.module:220
+msgid "You can configure your Paybox account, this url are given on payment call, so it can be optional:"
+msgstr ""
+"Vous pouvez configurer votre compte Paybox, ces urls sont données à "
+"l'appel du paiement, ceci est donc optionel :"
+
+#: uc_paybox.module:221
+msgid "Adresse URL retour OK : %url"
+msgstr ""
+
+#: uc_paybox.module:222
+msgid "Adresse URL retour erreur : %url"
+msgstr ""
+
+#: uc_paybox.module:223
+msgid "Adresse URL retour abandon : %url"
+msgstr ""
+
+#: uc_paybox.module:224
+msgid "IMPORTANT: you must use auto notification by given by e-mail this url to Paybox."
+msgstr ""
+"IMPORTANT : vous devez utiliser le retour automatique en fournissant "
+"par mail cette adresse à Paybox."
+
+#: uc_paybox.module:224
+msgid "Only auto can validate a payment !"
+msgstr "Seule la notification automatique peut valider un paiement !"
+
+#: uc_paybox.module:225
+msgid "AUTO URL: %url"
+msgstr ""
+
+#: uc_paybox.module:230
+msgid "Paybox site number"
+msgstr "Numéro de site"
+
+#: uc_paybox.module:231
+msgid "Your site number from Paybox, if empty, will be set to <strong>Demo mode</strong>."
+msgstr ""
+"Votre numéro de site donné par Paybox, si vide, sera en <strong>mode "
+"Demo</strong>."
+
+#: uc_paybox.module:237
+msgid "Paybox rank number"
+msgstr "Numéro de rang"
+
+#: uc_paybox.module:238
+msgid "Your rank number from Paybox, if empty, will be set to <strong>Demo mode</strong>."
+msgstr ""
+"Votre numéro de rang donné par Paybox, si vide, sera en <strong>mode "
+"Demo</strong>."
+
+#: uc_paybox.module:244
+msgid "Paybox identifier"
+msgstr "Identifiant paybox"
+
+#: uc_paybox.module:245
+msgid "Your identifier from Paybox, if empty, will be set to <strong>Demo mode</strong>."
+msgstr ""
+"Votre identifiant donné par Paybox, si vide, sera en <strong>mode "
+"Demo</strong>."
+
+#: uc_paybox.module:251
+msgid "Language preference"
+msgstr "Préférences de langue"
+
+#: uc_paybox.module:252
+msgid "Adjust language on paybox pages."
+msgstr "Ajuster la langue sur les pages paybox."
+
+#: uc_paybox.module:258
+msgid "Payment method title"
+msgstr "Nom du moyen de paiement"
+
+#: uc_paybox.module:259
+msgid "Payment title used on checkout page"
+msgstr "Nom du moyen de paiement sur la page de commande"
+
+#: uc_paybox.module:264
+msgid "Payment method description"
+msgstr "Description du mode de paiement"
+
+#: uc_paybox.module:269
+msgid "Icon on payment title"
+msgstr "Image sur le titre du paiement"
+
+#: uc_paybox.module:270
+msgid "Images are taken from <em>uc_paybox/images/logo</em>. Will be on the left of the title."
+msgstr ""
+"Les images proviennent de <em>uc_paybox/images/logo</em>. Sera placé "
+"à gauche du titre."
+
+#: uc_paybox.module:276
+msgid "Ubercart order review submit button text"
+msgstr "Texte du bouton de validation de commande Ubercart"
+
+#: uc_paybox.module:277
+msgid "Provide Paybox specific text for the submit button on the order review page."
+msgstr ""
+"Permet de fournir un texte spécifique pour le bouton de paiement "
+"paybox."
+
+#: uc_paybox.module:284
+msgid "Paybox administration setup"
+msgstr "Configuration de l'administration Paybox"
+
+#: uc_paybox.module:285
+msgid "This information <b>must be the same</b> as those of your Paybox administration interface."
+msgstr ""
+"Ces informations doivent <b>être les mêmes</b> que celle de votre "
+"interface d'administration Paybox."
+
+#: uc_paybox.module:291
+msgid "Currency"
+msgstr "devise"
+
+#: uc_paybox.module:292
+msgid "Select currency. To use different currency other than Euro, you need to contact Paybox !. Ubercart does not use multiple currency, you need to set up this options according to <a href=\"@url\">ubercart shop configuration</a>."
+msgstr ""
+
+#: uc_paybox.module:298;366
+msgid "Payment Type"
+msgstr "Type de paiement"
+
+#: uc_paybox.module:299
+msgid "Select the type(s) of payment permitted. If none is selected, the selection will be done on the Paybox site"
+msgstr "choisr le(s) type(s) de paiements autorisés. Si rien n'est sélectionné, le choix sera donné sur l'interface de paiement paybox"
+
+#: uc_paybox.module:306
+msgid "Paybox cgi path"
+msgstr "Chemin vers le fichier CGI"
+
+#: uc_paybox.module:307
+msgid "Paybox cgi file full path. eg. /var/www/cgi-bin/modulev3.cgi"
+msgstr "Chemein complet vers le fichier CGI. ex: /var/www/cgi-bin/modulev3.cgi"
+
+#: uc_paybox.module:313
+msgid "Paybox server IP allowed"
+msgstr "Ip Paybox autorisés"
+
+#: uc_paybox.module:315
+msgid "paybox server IP allowed to complete payment during auto process, one IP per line. NO HTML allowed."
+msgstr ""
+"Ip des serveurs Paybox autorisés à valider un paiement, une IP par "
+"lgne. PAS DE HTML."
+
+#: uc_paybox.module:320
+msgid "Enable debug mode"
+msgstr "Activer le mode de debuguage"
+
+#: uc_paybox.module:321
+msgid "Be carefull ! Debug show info to user and validate demonstration payment."
+msgstr ""
+"Attention ! Ce mode montre les informations de validation à "
+"l'utilisateur et autorise les paiements de démonsration."
+
+#: uc_paybox.module:438
+msgid "Carte Bleue"
+msgstr ""
+
+#: uc_paybox.module:439
+msgid "VISA"
+msgstr ""
+
+#: uc_paybox.module:440
+msgid "MasterCard"
+msgstr ""
+
+#: uc_paybox.module:441
+msgid "E-Bleue"
+msgstr ""
+
+#: uc_paybox.module:442
+msgid "American Express"
+msgstr ""
+
+#: uc_paybox.module:443
+msgid "Diner's Club"
+msgstr ""
+
+#: uc_paybox.module:444
+msgid "JCB"
+msgstr ""
+
+#: uc_paybox.module:445
+msgid "Cofinoga"
+msgstr ""
+
+#: uc_paybox.module:446
+msgid "Sofinco"
+msgstr ""
+
+#: uc_paybox.module:447
+msgid "Aurore"
+msgstr ""
+
+#: uc_paybox.module:448
+msgid "CDGP"
+msgstr ""
+
+#: uc_paybox.module:449
+msgid "24h00"
+msgstr ""
+
+#: uc_paybox.module:450
+msgid "Rive Gauche"
+msgstr ""
+
+#: uc_paybox.module:451
+msgid "Carte Bleue (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:452
+msgid "VISA (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:453
+msgid "MasterCard (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:454
+msgid "E-Bleue (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:455
+msgid "American Express (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:456
+msgid "Diner's Club (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:457
+msgid "JCB (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:458
+msgid "Aurore (Sympass)"
+msgstr ""
+
+#: uc_paybox.module:459
+msgid "Paynova"
+msgstr ""
+
+#: uc_paybox.module:460
+msgid "Termineo"
+msgstr ""
+
+#: uc_paybox.module:461
+msgid "Paypal"
+msgstr ""
+
+#: uc_paybox.module:462
+msgid "Un Euro"
+msgstr ""
+
+#: uc_paybox.module:463
+msgid "CDGP (Netreserve)"
+msgstr ""
+
+#: uc_paybox.module:464
+msgid "Cofinoga (Netreserve)"
+msgstr ""
+
+#: uc_paybox.module:484
+msgid "no logo"
+msgstr "pas de logo"
+
+#: uc_paybox.module:507
+msgid "French"
+msgstr "Français"
+
+#: uc_paybox.module:508
+msgid "English"
+msgstr "Anglais"
+
+#: uc_paybox.module:509
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: uc_paybox.module:510
+msgid "Dutch"
+msgstr "Hollandais"
+
+#: uc_paybox.module:511
+msgid "Italian"
+msgstr "Italien"
+
+#: uc_paybox.module:512
+msgid "Holland"
+msgstr "Hollandais"
+
+#: uc_paybox.module:513
+msgid "Swedish"
+msgstr "Suèdois"
+
+#: uc_paybox.module:527
+msgid "Euro (EUR)"
+msgstr "Euro (EUR)"
+
+#: uc_paybox.module:528
+msgid "American Dollar (USD)"
+msgstr "Dollar américain (USD)"
+
+#: uc_paybox.module:529
+msgid "Franc CFA (CFA)"
+msgstr ""
+
+#: uc_paybox.module:532
+msgid "Euro"
+msgstr ""
+
+#: uc_paybox.module:533
+msgid "American Dollar"
+msgstr "Dollar américain"
+
+#: uc_paybox.module:534
+msgid "Franc CFA"
+msgstr ""
+
+#: uc_paybox.module:21
+msgid "Checkout order"
+msgstr "Valider la commande"
+
+#: uc_paybox.module:28
+msgid "Order complete"
+msgstr "Commande terminée"
+
+#: uc_paybox.module:35
+msgid "Order refused"
+msgstr "Commande refusé"
+
+#: uc_paybox.module:42
+msgid "Order canceled"
+msgstr "Commande annulée"
+
+#: uc_paybox.module:49
+msgid "Order auto"
+msgstr ""
+
+#: uc_paybox.info:0
+msgid "Paybox payment system"
+msgstr "Système de paiement Paybox"
+
+#: uc_paybox.info:0
+msgid "Payments proccess using Paybox."
+msgstr "système de paiement par Paybox."
+
+#: uc_paybox.info:0
+msgid "Ubercart - payment"
+msgstr "Ubercart - payment"
+
